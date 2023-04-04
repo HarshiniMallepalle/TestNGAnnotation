@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- BeforeSuite -->
+
+<suite name="Salesforce">
+
+
+<parameter name="username"  value="harshi@gmail.com" ></parameter>
+<parameter name="pswd"  value="Test@123" ></parameter>
+ 
+<!-- BeforeTest -->
+<test name="Login">
+<classes>
+<class name="com.training.annotation.Test1"/>
+<class name="com.training.annotation1.Test3"/>
+</classes>
+</test>
+<!-- AfterTest -->
+
+
+<!-- BeforeTest -->
+<test name="Accounts">
+<!-- This is comment in xml
+<groups>
+  	<run>
+  		<include name = "web"></include>
+   	</run>
+</groups>
+-->
+
+<classes>
+<class name="com.training.annotation.Test2"/>
+<class name="com.training.annotation1.Test4"/>
+</classes>
+</test>
+<!-- AfterTest -->
+
+</suite>
+<!-- AfterSuite -->

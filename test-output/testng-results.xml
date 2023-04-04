@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-16T18:54:16 EDT" name="Default suite" finished-at="2023-03-16T18:54:16 EDT" duration-ms="37">
+    <groups>
+    </groups>
+    <test started-at="2023-03-16T18:54:16 EDT" name="Default test" finished-at="2023-03-16T18:54:16 EDT" duration-ms="37">
+      <class name="com.training.annotation.Test2">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.training.annotation.Test2@48f278eb]" started-at="2023-03-16T18:54:16 EDT" name="Beforesuite" finished-at="2023-03-16T18:54:16 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforesuite -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:com.training.annotation.Test2@48f278eb]" started-at="2023-03-16T18:54:16 EDT" name="BeforeTest" finished-at="2023-03-16T18:54:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="login()[pri:7, instance:com.training.annotation.Test2@48f278eb]" started-at="2023-03-16T18:54:16 EDT" name="login" finished-at="2023-03-16T18:54:16 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.training.annotation.Test2@48f278eb]" started-at="2023-03-16T18:54:16 EDT" name="TearDown" finished-at="2023-03-16T18:54:16 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.training.annotation.Test2@48f278eb]" started-at="2023-03-16T18:54:16 EDT" name="after" finished-at="2023-03-16T18:54:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.training.annotation.Test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
